@@ -3,7 +3,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R] /Count 3 >>
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 5 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -15,132 +15,93 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 6 0 obj
-<< /Length 2797 >>
+<< /Length 1268 >>
 stream
+0.98 0.99 1.00 rg
+0 0 595 842 re f
+0.07 0.20 0.38 rg
+0 632 595 210 re f
 BT
-/F2 22 Tf
-55 790 Td (Rapport TP1) Tj
--55 -790 Td
-/F1 14 Tf
-55 758 Td (Recommendation system: Collaborative Filtering item-) Tj
--55 -758 Td
-/F1 14 Tf
-55 738 Td (item top-N) Tj
--55 -738 Td
-/F1 11 Tf
-55 714 Td () Tj
--55 -714 Td
-/F1 11 Tf
-55 697 Td (Nom et prenoms : AGBESSI John Ulrich) Tj
--55 -697 Td
-/F1 11 Tf
-55 680 Td (Filiere : Genie logiciel) Tj
--55 -680 Td
-/F1 11 Tf
-55 663 Td (Ecole : IFRI-UAC) Tj
--55 -663 Td
-/F1 11 Tf
-55 646 Td (Depot GitHub :) Tj
--55 -646 Td
-/F1 11 Tf
-55 629 Td (https://github.com/John271200/TP1Recommendation-) Tj
--55 -629 Td
-/F1 11 Tf
-55 612 Td (system.git) Tj
--55 -612 Td
-/F1 11 Tf
-55 595 Td (Application Streamlit : https://tp1recommendation-) Tj
--55 -595 Td
-/F1 11 Tf
-55 578 Td (system.streamlit.app/) Tj
--55 -578 Td
-/F1 11 Tf
-55 561 Td () Tj
--55 -561 Td
+1 1 1 rg
+/F2 16 Tf
+54 745 Td (IFRI-UAC) Tj
+ET
+BT
+1 1 1 rg
+/F2 26 Tf
+54 700 Td (Rapport de projet) Tj
+ET
+BT
+1 1 1 rg
+/F2 19 Tf
+54 664 Td (TP1 Big Data) Tj
+ET
+BT
+1 1 1 rg
+/F1 13 Tf
+54 632 Td (Recommendation system: Collaborative Filtering item-item top-N) Tj
+ET
+1 1 1 rg
+54 382 487 178 re f
+BT
+0.07 0.20 0.38 rg
 /F2 14 Tf
-55 544 Td (1. Introduction) Tj
--55 -544 Td
-/F1 11 Tf
-55 520 Td (Ce projet porte sur la realisation d'un systeme de) Tj
--55 -520 Td
-/F1 11 Tf
-55 503 Td (recommandation base sur le filtrage collaboratif) Tj
--55 -503 Td
-/F1 11 Tf
-55 486 Td (item-item. L'objectif est de proposer a un) Tj
--55 -486 Td
-/F1 11 Tf
-55 469 Td (utilisateur une liste top-N d'items qu'il n'a pas) Tj
--55 -469 Td
-/F1 11 Tf
-55 452 Td (encore notes, en utilisant les notes donnees par) Tj
--55 -452 Td
-/F1 11 Tf
-55 435 Td (l'ensemble des utilisateurs.) Tj
--55 -435 Td
-/F1 11 Tf
-55 418 Td (Le projet contient aussi une interface Streamlit) Tj
--55 -418 Td
-/F1 11 Tf
-55 401 Td (permettant de tester facilement le systeme depuis un) Tj
--55 -401 Td
-/F1 11 Tf
-55 384 Td (navigateur.) Tj
--55 -384 Td
-/F2 14 Tf
-55 367 Td (2. Objectif du projet) Tj
--55 -367 Td
-/F1 11 Tf
-55 343 Td (L'objectif principal est de construire une) Tj
--55 -343 Td
-/F1 11 Tf
-55 326 Td (application capable de lire un fichier de notes) Tj
--55 -326 Td
-/F1 11 Tf
-55 309 Td (utilisateur-item, calculer les similarites entre les) Tj
--55 -309 Td
-/F1 11 Tf
-55 292 Td (items, predire les scores des items non notes par un) Tj
--55 -292 Td
-/F1 11 Tf
-55 275 Td (utilisateur et afficher les meilleures) Tj
--55 -275 Td
-/F1 11 Tf
-55 258 Td (recommandations top-N.) Tj
--55 -258 Td
-/F2 14 Tf
-55 241 Td (3. Donnees utilisees) Tj
--55 -241 Td
-/F1 11 Tf
-55 217 Td (Le projet utilise deux fichiers CSV. Le fichier) Tj
--55 -217 Td
-/F1 11 Tf
-55 200 Td (ratings.csv contient les notes donnees par les) Tj
--55 -200 Td
-/F1 11 Tf
-55 183 Td (utilisateurs. Le fichier items.csv contient les noms) Tj
--55 -183 Td
-/F1 11 Tf
-55 166 Td (des items. Dans ce TP, les items representent des) Tj
--55 -166 Td
-/F1 11 Tf
-55 149 Td (films.) Tj
--55 -149 Td
-/F3 10 Tf
-55 132 Td (user_id,item_id,rating) Tj
--55 -132 Td
-/F3 10 Tf
-55 116 Td (U1,I1,5) Tj
--55 -116 Td
-/F3 10 Tf
-55 100 Td (U1,I2,4) Tj
--55 -100 Td
-/F3 10 Tf
-55 84 Td (item_id,title) Tj
--55 -84 Td
-/F3 10 Tf
-55 68 Td (I1,Inception) Tj
--55 -68 Td
+76 525 Td (Informations etudiant) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F2 10.5 Tf
+76 493 Td (Nom et prenoms :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+204 493 Td (AGBESSI John Ulrich) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F2 10.5 Tf
+76 469 Td (Filiere :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+204 469 Td (Genie logiciel) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F2 10.5 Tf
+76 445 Td (Ecole :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+204 445 Td (IFRI-UAC) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F2 10.5 Tf
+76 421 Td (Depot GitHub :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+204 421 Td (github.com/John271200/TP1Recommendation-system) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F2 10.5 Tf
+76 397 Td (Application :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+204 397 Td (tp1recommendation-system.streamlit.app) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F1 10.5 Tf
+54 96 Td (Projet realise dans le cadre du TP1 : Recommendation system avec Streamlit) Tj
 ET
 endstream
 endobj
@@ -148,138 +109,295 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3383 >>
+<< /Length 4911 >>
 stream
+0.07 0.20 0.38 rg
+0 804 595 38 re f
 BT
-/F3 10 Tf
-55 790 Td (I2,Interstellar) Tj
--55 -790 Td
-/F2 14 Tf
-55 774 Td (4. Methode utilisee) Tj
--55 -774 Td
-/F1 11 Tf
-55 750 Td (La methode utilisee est le filtrage collaboratif) Tj
--55 -750 Td
-/F1 11 Tf
-55 733 Td (item-item. Elle consiste a comparer les items entre) Tj
--55 -733 Td
-/F1 11 Tf
-55 716 Td (eux a partir des notes donnees par les utilisateurs.) Tj
--55 -716 Td
-/F1 11 Tf
-55 699 Td (Le programme construit une structure utilisateur-) Tj
--55 -699 Td
-/F1 11 Tf
-55 682 Td (item pour connaitre les notes de chaque utilisateur,) Tj
--55 -682 Td
-/F1 11 Tf
-55 665 Td (puis une structure item-utilisateur pour connaitre) Tj
--55 -665 Td
-/F1 11 Tf
-55 648 Td (les utilisateurs ayant note chaque item.) Tj
--55 -648 Td
-/F1 11 Tf
-55 631 Td (Pour chaque paire d'items, le programme construit) Tj
--55 -631 Td
-/F1 11 Tf
-55 614 Td (deux vecteurs de notes. Une note manquante est) Tj
--55 -614 Td
-/F1 11 Tf
-55 597 Td (consideree comme 0. La similarite utilisee est la) Tj
--55 -597 Td
-/F1 11 Tf
-55 580 Td (similarite cosinus.) Tj
--55 -580 Td
-/F3 10 Tf
-55 563 Td (similarite\(A, B\) = produit_scalaire\(A, B\) / \(norme\(A\) * norme\(B\)\)) Tj
--55 -563 Td
-/F1 11 Tf
-55 547 Td (Pour un utilisateur cible, le programme ignore les) Tj
--55 -547 Td
-/F1 11 Tf
-55 530 Td (items deja notes. Pour chaque item candidat, il) Tj
--55 -530 Td
-/F1 11 Tf
-55 513 Td (calcule un score predit avec une moyenne ponderee) Tj
--55 -513 Td
-/F1 11 Tf
-55 496 Td (par les similarites.) Tj
--55 -496 Td
-/F3 10 Tf
-55 479 Td (score\(item\) = somme\(similarite * note\) / somme\(abs\(similarite\)\)) Tj
--55 -479 Td
-/F2 14 Tf
-55 463 Td (5. Implementation) Tj
--55 -463 Td
-/F1 11 Tf
-55 439 Td (Le fichier recommender.py contient l'implementation) Tj
--55 -439 Td
-/F1 11 Tf
-55 422 Td (de l'algorithme de recommandation. Le fichier app.py) Tj
--55 -422 Td
-/F1 11 Tf
-55 405 Td (contient l'interface Streamlit. Les fichiers) Tj
--55 -405 Td
-/F1 11 Tf
-55 388 Td (ratings.csv et items.csv contiennent les donnees. Le) Tj
--55 -388 Td
-/F1 11 Tf
-55 371 Td (fichier requirements.txt contient la dependance) Tj
--55 -371 Td
-/F1 11 Tf
-55 354 Td (Streamlit.) Tj
--55 -354 Td
-/F1 11 Tf
-55 337 Td (L'application Streamlit permet de choisir un) Tj
--55 -337 Td
-/F1 11 Tf
-55 320 Td (utilisateur, choisir le nombre de recommandations,) Tj
--55 -320 Td
-/F1 11 Tf
-55 303 Td (afficher les notes deja donnees et afficher les) Tj
--55 -303 Td
-/F1 11 Tf
-55 286 Td (similarites item-item.) Tj
--55 -286 Td
-/F2 14 Tf
-55 269 Td (6. Resultats obtenus) Tj
--55 -269 Td
-/F1 11 Tf
-55 245 Td (La commande console suivante a ete testee :) Tj
--55 -245 Td
-/F3 10 Tf
-55 228 Td (python recommender.py --user U1 --top-n 3 --show-similarities) Tj
--55 -228 Td
-/F1 11 Tf
-55 212 Td (Resultat obtenu :) Tj
--55 -212 Td
-/F3 10 Tf
-55 195 Td (Top similarites item-item) Tj
--55 -195 Td
-/F3 10 Tf
-55 179 Td (John Wick <-> Mad Max Fury Road : 0.986) Tj
--55 -179 Td
-/F3 10 Tf
-55 163 Td (The Matrix <-> Mad Max Fury Road : 0.977) Tj
--55 -163 Td
-/F3 10 Tf
-55 147 Td (The Matrix <-> John Wick : 0.962) Tj
--55 -147 Td
-/F3 10 Tf
-55 131 Td (Inception <-> The Martian : 0.898) Tj
--55 -131 Td
-/F3 10 Tf
-55 115 Td (Interstellar <-> The Martian : 0.828) Tj
--55 -115 Td
-/F3 10 Tf
-55 99 Td (Recommandations top-3 pour U1) Tj
--55 -99 Td
-/F3 10 Tf
-55 83 Td (1. Gravity \(I7\) - score predit : 4.27) Tj
--55 -83 Td
-/F3 10 Tf
-55 67 Td (2. Blade Runner 2049 \(I8\) - score predit : 2.69) Tj
--55 -67 Td
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 762 Td (Resume) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 754 m 541 754 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 736 Td (Ce rapport presente la conception et la realisation d'un systeme de recommandation top-N) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 721 Td (base sur le filtrage collaboratif item-item. Le systeme exploite les notes donnees par) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 706 Td (plusieurs utilisateurs a des films, calcule les similarites entre les items, puis) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 691 Td (recommande les films les plus pertinents pour un utilisateur cible.) Tj
+ET
+0.88 0.93 0.98 rg
+54 567 487 102 re f
+0.07 0.20 0.38 rg
+54 639 487 30 re f
+BT
+1 1 1 rg
+/F2 12 Tf
+68 649 Td (Liens du projet) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 617 Td (Depot GitHub) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 617 Td (https://github.com/John271200/TP1Recommendation-system.git) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 595 Td (Application) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 595 Td (https://tp1recommendation-system.streamlit.app/) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 573 Td (Acces prof.) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 573 Td (johnaoga@gmail.com) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 541 Td (1. Introduction) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 533 m 541 533 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 515 Td (Les systemes de recommandation sont presents dans de nombreux services numeriques :) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 500 Td (plateformes de streaming, commerce electronique, reseaux sociaux et bibliotheques) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 485 Td (numeriques. Leur role est d'aider l'utilisateur a trouver rapidement des contenus) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 470 Td (pertinents.) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 448 Td (Dans ce TP, l'approche utilisee est le filtrage collaboratif item-item. Elle compare les) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 433 Td (items entre eux a partir des notes donnees par les utilisateurs. Deux films sont proches) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 418 Td (si les utilisateurs les evaluent de maniere similaire.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 388 Td (2. Objectifs du projet) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 380 m 541 380 l S
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 362 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 362 Td (Lire et exploiter un dataset utilisateur-item.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 347 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 347 Td (Construire les structures de donnees necessaires au filtrage collaboratif.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 332 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 332 Td (Calculer la similarite cosinus entre les items.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 317 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 317 Td (Predire les scores des items non notes par un utilisateur.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 302 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 302 Td (Afficher une liste top-N de recommandations.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 287 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 287 Td (Proposer une interface web interactive avec Streamlit.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 272 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 272 Td (Publier le projet sur GitHub et le deployer en ligne.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 243 Td (3. Donnees utilisees) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 235 m 541 235 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 217 Td (Le projet utilise deux fichiers CSV. Le fichier ratings.csv contient les notes donnees) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 202 Td (par les utilisateurs. Le fichier items.csv associe les identifiants des items aux titres) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 187 Td (des films.) Tj
+ET
+0.07 0.20 0.38 rg
+54 141 487 24 re f
+BT
+1 1 1 rg
+/F2 9 Tf
+62 149 Td (Fichier) Tj
+ET
+BT
+1 1 1 rg
+/F2 9 Tf
+167 149 Td (Role) Tj
+ET
+BT
+1 1 1 rg
+/F2 9 Tf
+352 149 Td (Colonnes) Tj
+ET
+0.98 0.99 1.00 rg
+54 117 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 125 Td (ratings.csv) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+167 125 Td (Notes utilisateur-item) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+352 125 Td (user_id, item_id, rating) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 117 m 541 117 l S
+0.98 0.99 1.00 rg
+54 93 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 101 Td (items.csv) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+167 101 Td (Description des films) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+352 101 Td (item_id, title) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 93 m 541 93 l S
+BT
+1 1 1 rg
+/F2 10 Tf
+54 818 Td (TP1 - Recommendation system item-item) Tj
+ET
+0.32 0.34 0.36 RG
+0.6 w
+54 42 m 541 42 l S
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+54 25 Td (AGBESSI John Ulrich - Genie logiciel - IFRI-UAC) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+486 25 Td (Page 2/5) Tj
 ET
 endstream
 endobj
@@ -287,94 +405,794 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 1621 >>
+<< /Length 4153 >>
 stream
+0.07 0.20 0.38 rg
+0 804 595 38 re f
 BT
-/F3 10 Tf
-55 790 Td (3. John Wick \(I4\) - score predit : 1.94) Tj
--55 -790 Td
-/F1 11 Tf
-55 774 Td (Pour l'utilisateur U1, les films deja notes sont) Tj
--55 -774 Td
-/F1 11 Tf
-55 757 Td (exclus des recommandations. Le systeme propose donc) Tj
--55 -757 Td
-/F1 11 Tf
-55 740 Td (seulement des items non notes par cet utilisateur.) Tj
--55 -740 Td
-/F2 14 Tf
-55 723 Td (7. Deploiement) Tj
--55 -723 Td
-/F1 11 Tf
-55 699 Td (Le projet est disponible sur GitHub :) Tj
--55 -699 Td
-/F1 11 Tf
-55 682 Td (https://github.com/John271200/TP1Recommendation-) Tj
--55 -682 Td
-/F1 11 Tf
-55 665 Td (system.git) Tj
--55 -665 Td
-/F1 11 Tf
-55 648 Td (L'application Streamlit est disponible ici :) Tj
--55 -648 Td
-/F1 11 Tf
-55 631 Td (https://tp1recommendation-system.streamlit.app/) Tj
--55 -631 Td
-/F1 11 Tf
-55 614 Td (Le professeur peut acceder au depot avec l'adresse :) Tj
--55 -614 Td
-/F1 11 Tf
-55 597 Td (johnaoga@gmail.com) Tj
--55 -597 Td
-/F2 14 Tf
-55 580 Td (8. Conclusion) Tj
--55 -580 Td
-/F1 11 Tf
-55 556 Td (Ce TP a permis de mettre en place un systeme de) Tj
--55 -556 Td
-/F1 11 Tf
-55 539 Td (recommandation top-N avec filtrage collaboratif) Tj
--55 -539 Td
-/F1 11 Tf
-55 522 Td (item-item. L'approche est simple, interpretable et) Tj
--55 -522 Td
-/F1 11 Tf
-55 505 Td (efficace pour comprendre les bases des systemes de) Tj
--55 -505 Td
-/F1 11 Tf
-55 488 Td (recommandation.) Tj
--55 -488 Td
-/F1 11 Tf
-55 471 Td (L'ajout de Streamlit rend le projet plus accessible,) Tj
--55 -471 Td
-/F1 11 Tf
-55 454 Td (car l'utilisateur peut tester les recommandations) Tj
--55 -454 Td
-/F1 11 Tf
-55 437 Td (directement dans une interface web.) Tj
--55 -437 Td
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 770 Td (Le dataset contient 8 utilisateurs, 8 films et 32 notes. Il est volontairement reduit) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 755 Td (pour faciliter l'analyse du fonctionnement de l'algorithme.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 725 Td (4. Architecture du projet) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 717 m 541 717 l S
+0.94 0.95 0.96 rg
+54 549 487 158 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 707 m 541 707 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 679 Td (TP1/) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 665 Td (  app.py) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 651 Td (  recommender.py) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 637 Td (  ratings.csv) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 623 Td (  items.csv) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 609 Td (  requirements.txt) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 595 Td (  README.md) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 581 Td (  EXECUTION_SUMMARY.md) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 567 Td (  SUBMISSION_LINKS.md) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 553 Td (  RAPPORT_TP1_AGBESSI_John_Ulrich.pdf) Tj
+ET
+0.07 0.20 0.38 rg
+54 505 487 24 re f
+BT
+1 1 1 rg
+/F2 9 Tf
+62 513 Td (Fichier) Tj
+ET
+BT
+1 1 1 rg
+/F2 9 Tf
+197 513 Td (Description) Tj
+ET
+0.98 0.99 1.00 rg
+54 481 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 489 Td (recommender.py) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+197 489 Td (Logique de recommandation item-item) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 481 m 541 481 l S
+0.98 0.99 1.00 rg
+54 457 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 465 Td (app.py) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+197 465 Td (Interface web Streamlit) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 457 m 541 457 l S
+0.98 0.99 1.00 rg
+54 433 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 441 Td (ratings.csv) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+197 441 Td (Notes des utilisateurs) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 433 m 541 433 l S
+0.98 0.99 1.00 rg
+54 409 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 417 Td (items.csv) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+197 417 Td (Titres des films) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 409 m 541 409 l S
+0.98 0.99 1.00 rg
+54 385 487 24 re f
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+62 393 Td (requirements.txt) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 9 Tf
+197 393 Td (Dependance Streamlit) Tj
+ET
+0.84 0.86 0.88 RG
+0.5 w
+54 385 m 541 385 l S
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 359 Td (5. Methode de recommandation) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 351 m 541 351 l S
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 333 Td (5.1 Filtrage collaboratif item-item) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 314 Td (Le filtrage collaboratif item-item cherche les items similaires aux items deja apprecies) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 299 Td (par l'utilisateur. Cette approche est interpretable : un film est recommande parce qu'il) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 284 Td (est proche d'autres films deja notes.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 262 Td (5.2 Structures de donnees) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 243 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 243 Td (ratings_by_user : dictionnaire permettant de retrouver les notes d'un utilisateur.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 228 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 228 Td (ratings_by_item : dictionnaire permettant de retrouver les notes recues par un) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 213 Td (item.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 192 Td (5.3 Similarite cosinus) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 173 Td (Chaque item est represente par un vecteur de notes. Les notes manquantes sont remplacees) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 158 Td (par 0.) Tj
+ET
+0.94 0.95 0.96 rg
+54 112 487 32 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 144 m 541 144 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 116 Td (similarite\(A, B\) = \(A . B\) / \(||A|| * ||B||\)) Tj
+ET
+BT
+1 1 1 rg
+/F2 10 Tf
+54 818 Td (TP1 - Recommendation system item-item) Tj
+ET
+0.32 0.34 0.36 RG
+0.6 w
+54 42 m 541 42 l S
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+54 25 Td (AGBESSI John Ulrich - Genie logiciel - IFRI-UAC) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+486 25 Td (Page 3/5) Tj
 ET
 endstream
 endobj
 11 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
 endobj
+12 0 obj
+<< /Length 3966 >>
+stream
+0.07 0.20 0.38 rg
+0 804 595 38 re f
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 770 Td (5.4 Prediction des scores) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 751 Td (Pour chaque item candidat, le score predit est calcule avec une moyenne ponderee par les) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 736 Td (similarites.) Tj
+ET
+0.94 0.95 0.96 rg
+54 690 487 32 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 722 m 541 722 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 694 Td (score\(item\) = somme\(similarite\(item, item_note\) * note\) / somme\(abs\(similarite\)\)) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 662 Td (6. Interface Streamlit) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 654 m 541 654 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 636 Td (L'interface Streamlit rend le systeme accessible depuis un navigateur. Elle permet de) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 621 Td (choisir l'utilisateur cible, de regler le nombre de recommandations, de consulter les) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 606 Td (notes deja donnees et de visualiser les similarites item-item.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 584 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 584 Td (Selection de l'utilisateur cible.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 569 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 569 Td (Choix du nombre de recommandations top-N.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 554 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 554 Td (Affichage des notes de l'utilisateur.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 539 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 539 Td (Affichage des recommandations.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 524 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 524 Td (Affichage des meilleures similarites item-item.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 495 Td (7. Execution du projet) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 487 m 541 487 l S
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 469 Td (7.1 Installation) Tj
+ET
+0.94 0.95 0.96 rg
+54 426 487 32 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 458 m 541 458 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 430 Td (python -m pip install -r requirements.txt) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 406 Td (7.2 Lancement Streamlit) Tj
+ET
+0.94 0.95 0.96 rg
+54 363 487 32 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 395 m 541 395 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 367 Td (streamlit run app.py) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 343 Td (7.3 Execution console) Tj
+ET
+0.94 0.95 0.96 rg
+54 300 487 32 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 332 m 541 332 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 304 Td (python recommender.py --user U1 --top-n 3 --show-similarities) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 272 Td (8. Resultats obtenus) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 264 m 541 264 l S
+0.94 0.95 0.96 rg
+54 82 487 172 re f
+0.80 0.82 0.85 RG
+0.7 w
+54 254 m 541 254 l S
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 226 Td (Top similarites item-item) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 212 Td (John Wick <-> Mad Max Fury Road : 0.986) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 198 Td (The Matrix <-> Mad Max Fury Road : 0.977) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 184 Td (The Matrix <-> John Wick : 0.962) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 170 Td (Inception <-> The Martian : 0.898) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 156 Td (Interstellar <-> The Martian : 0.828) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 142 Td () Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 128 Td (Recommandations top-3 pour U1) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 114 Td (1. Gravity \(I7\) - score predit : 4.27) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 100 Td (2. Blade Runner 2049 \(I8\) - score predit : 2.69) Tj
+ET
+BT
+0.10 0.10 0.10 rg
+/F3 9 Tf
+66 86 Td (3. John Wick \(I4\) - score predit : 1.94) Tj
+ET
+BT
+1 1 1 rg
+/F2 10 Tf
+54 818 Td (TP1 - Recommendation system item-item) Tj
+ET
+0.32 0.34 0.36 RG
+0.6 w
+54 42 m 541 42 l S
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+54 25 Td (AGBESSI John Ulrich - Genie logiciel - IFRI-UAC) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+486 25 Td (Page 4/5) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 4275 >>
+stream
+0.07 0.20 0.38 rg
+0 804 595 38 re f
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 770 Td (Pour l'utilisateur U1, les films deja notes sont exclus des recommandations. Gravity) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 755 Td (obtient le meilleur score predit, ce qui indique que ce film est le plus pertinent selon) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 740 Td (les similarites calculees avec les films deja notes par l'utilisateur.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 710 Td (9. Deploiement) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 702 m 541 702 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 684 Td (Le depot GitHub et l'application Streamlit sont disponibles en ligne.) Tj
+ET
+0.88 0.93 0.98 rg
+54 560 487 102 re f
+0.07 0.20 0.38 rg
+54 632 487 30 re f
+BT
+1 1 1 rg
+/F2 12 Tf
+68 642 Td (Informations de soumission) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 610 Td (GitHub) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 610 Td (https://github.com/John271200/TP1Recommendation-system.git) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 588 Td (Streamlit) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 588 Td (https://tp1recommendation-system.streamlit.app/) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 10 Tf
+68 566 Td (Professeur) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10 Tf
+189 566 Td (johnaoga@gmail.com) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 534 Td (10. Limites et perspectives) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 526 m 541 526 l S
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 508 Td (10.1 Limites) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 489 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 489 Td (Le dataset est petit et sert principalement a illustrer l'algorithme.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 474 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 474 Td (Les notes manquantes sont remplacees par 0 pour simplifier le calcul.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 459 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 459 Td (Le probleme de cold start n'est pas encore traite.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 444 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 444 Td (Le modele n'est pas encore evalue avec des metriques comme RMSE, precision ou) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 429 Td (recall.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 12 Tf
+54 408 Td (10.2 Ameliorations possibles) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 389 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 389 Td (Utiliser un dataset plus grand comme MovieLens.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 374 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 374 Td (Ajouter une separation train/test.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 359 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 359 Td (Comparer les approches item-item et user-user.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 344 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 344 Td (Ajouter l'import de fichiers CSV depuis Streamlit.) Tj
+ET
+BT
+0.16 0.36 0.61 rg
+/F2 10.5 Tf
+60 329 Td (-) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+74 329 Td (Ameliorer l'interface avec des graphiques et une matrice de similarite.) Tj
+ET
+BT
+0.07 0.20 0.38 rg
+/F2 15 Tf
+54 300 Td (11. Conclusion) Tj
+ET
+0.16 0.36 0.61 RG
+1.2 w
+54 292 m 541 292 l S
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 274 Td (Ce TP a permis de realiser un systeme de recommandation top-N complet, depuis la lecture) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 259 Td (des donnees jusqu'au deploiement d'une interface web. Le filtrage collaboratif item-item) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 244 Td (offre une approche claire et interpretable pour comprendre les bases des systemes de) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 229 Td (recommandation.) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 207 Td (L'application Streamlit complete le projet en rendant les recommandations facilement) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 192 Td (testables. Le depot GitHub et le lien de deploiement permettent au professeur de) Tj
+ET
+BT
+0.12 0.13 0.15 rg
+/F1 10.5 Tf
+54 177 Td (consulter le code et d'executer l'application en ligne.) Tj
+ET
+BT
+1 1 1 rg
+/F2 10 Tf
+54 818 Td (TP1 - Recommendation system item-item) Tj
+ET
+0.32 0.34 0.36 RG
+0.6 w
+54 42 m 541 42 l S
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+54 25 Td (AGBESSI John Ulrich - Genie logiciel - IFRI-UAC) Tj
+ET
+BT
+0.32 0.34 0.36 rg
+/F1 9 Tf
+486 25 Td (Page 5/5) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
+endobj
 xref
-0 12
+0 16
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000128 00000 n 
-0000000198 00000 n 
-0000000273 00000 n 
-0000000341 00000 n 
-0000003190 00000 n 
-0000003336 00000 n 
-0000006771 00000 n 
-0000006917 00000 n 
-0000008591 00000 n 
+0000000142 00000 n 
+0000000212 00000 n 
+0000000287 00000 n 
+0000000355 00000 n 
+0000001675 00000 n 
+0000001821 00000 n 
+0000006784 00000 n 
+0000006930 00000 n 
+0000011136 00000 n 
+0000011284 00000 n 
+0000015303 00000 n 
+0000015451 00000 n 
+0000019779 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R >>
+<< /Size 16 /Root 1 0 R >>
 startxref
-8739
+19927
 %%EOF
