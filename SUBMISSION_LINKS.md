@@ -11,7 +11,7 @@ https://github.com/John271200/TP1Recommendation-system.git
 ## Application Streamlit
 
 ```text
-A COMPLETER : coller ici le lien Streamlit Community Cloud
+https://tp1recommendation-system.streamlit.app/
 ```
 
 ## Acces professeur
